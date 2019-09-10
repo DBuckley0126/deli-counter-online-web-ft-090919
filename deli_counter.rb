@@ -17,5 +17,5 @@ end
 def take_a_number(queue_array, name)
   next_position = queue_array.length + 1
   queue_array << name
-    
+
 end
