@@ -1,7 +1,7 @@
 require 'pry'
 katz_deli = []
 # binding.pry
-def line
- puts katz_deli.empty? ? "The line is currently empty." : katz_deli
+def line(array)
+ puts array.empty? ? "The line is currently empty." : array
 
 end
