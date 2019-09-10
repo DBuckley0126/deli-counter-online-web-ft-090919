@@ -26,4 +26,5 @@ def now_serving (queue_array)
   else
     puts "Currently serving #{queue_array[0]}"
     queue_array.shift
-end  
+  end
+end 
