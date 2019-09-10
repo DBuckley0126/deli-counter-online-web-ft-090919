@@ -1,5 +1,5 @@
 require 'pry'
-katz_deli = []
+
 # binding.pry
 def line(array)
 
@@ -16,5 +16,5 @@ def line(array)
 end
 
 def take_a_number(array, name)
-
+  
 end
