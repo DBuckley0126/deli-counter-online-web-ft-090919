@@ -2,8 +2,7 @@ require 'pry'
 
 # binding.pry
 def line(array)
-
- if array.empty?
+  if array.empty?
    puts "The line is currently empty."
  else
    string = "The line is currently:"
@@ -15,6 +14,8 @@ def line(array)
  end
 end
 
-def take_a_number(array, name)
-
+def take_a_number(queue_array, name)
+  next_position = queue_array.length + 1
+  queue_array << name
+    
 end
