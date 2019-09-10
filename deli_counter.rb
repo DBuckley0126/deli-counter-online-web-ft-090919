@@ -24,6 +24,6 @@ def now_serving (queue_array)
   if queue_array.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{queue_array[0]}"  
+    puts "Currently serving #{queue_array[0]}"
     queue_array.shift
 end  
