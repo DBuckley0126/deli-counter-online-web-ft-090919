@@ -19,3 +19,11 @@ def take_a_number(queue_array, name)
   queue_array << name
   puts "Welcome, #{name}. You are number #{next_position} in line."
 end
+
+def now_serving (queue_array)
+  if queue_array.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{queue_array[0]}"  
+    queue_array.shift
+end  
